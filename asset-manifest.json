@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/worldwise/static/css/main.e28f3c12.css",
+    "main.js": "/worldwise/static/js/main.ab0f5102.js",
+    "static/css/700.1b8e2ac3.chunk.css": "/worldwise/static/css/700.1b8e2ac3.chunk.css",
+    "static/js/700.1359e779.chunk.js": "/worldwise/static/js/700.1359e779.chunk.js",
+    "static/css/884.99553df5.chunk.css": "/worldwise/static/css/884.99553df5.chunk.css",
+    "static/js/884.48fd3784.chunk.js": "/worldwise/static/js/884.48fd3784.chunk.js",
+    "static/css/310.99553df5.chunk.css": "/worldwise/static/css/310.99553df5.chunk.css",
+    "static/js/310.08c71012.chunk.js": "/worldwise/static/js/310.08c71012.chunk.js",
+    "static/js/364.39a10503.chunk.js": "/worldwise/static/js/364.39a10503.chunk.js",
+    "static/css/658.1ceae79a.chunk.css": "/worldwise/static/css/658.1ceae79a.chunk.css",
+    "static/js/658.509cbf0e.chunk.js": "/worldwise/static/js/658.509cbf0e.chunk.js",
+    "static/js/623.2774cbcc.chunk.js": "/worldwise/static/js/623.2774cbcc.chunk.js",
+    "static/media/bg.jpg": "/worldwise/static/media/bg.3e2be86d98db926ce9f0.jpg",
+    "index.html": "/worldwise/index.html",
+    "main.e28f3c12.css.map": "/worldwise/static/css/main.e28f3c12.css.map",
+    "main.ab0f5102.js.map": "/worldwise/static/js/main.ab0f5102.js.map",
+    "700.1b8e2ac3.chunk.css.map": "/worldwise/static/css/700.1b8e2ac3.chunk.css.map",
+    "700.1359e779.chunk.js.map": "/worldwise/static/js/700.1359e779.chunk.js.map",
+    "884.99553df5.chunk.css.map": "/worldwise/static/css/884.99553df5.chunk.css.map",
+    "884.48fd3784.chunk.js.map": "/worldwise/static/js/884.48fd3784.chunk.js.map",
+    "310.99553df5.chunk.css.map": "/worldwise/static/css/310.99553df5.chunk.css.map",
+    "310.08c71012.chunk.js.map": "/worldwise/static/js/310.08c71012.chunk.js.map",
+    "364.39a10503.chunk.js.map": "/worldwise/static/js/364.39a10503.chunk.js.map",
+    "658.1ceae79a.chunk.css.map": "/worldwise/static/css/658.1ceae79a.chunk.css.map",
+    "658.509cbf0e.chunk.js.map": "/worldwise/static/js/658.509cbf0e.chunk.js.map",
+    "623.2774cbcc.chunk.js.map": "/worldwise/static/js/623.2774cbcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28f3c12.css",
+    "static/js/main.ab0f5102.js"
+  ]
+}
