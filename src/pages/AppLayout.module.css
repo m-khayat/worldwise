@@ -1,0 +1,14 @@
+.app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 425px) {
+  .app {
+    flex-direction: column;
+    flex-basis: 250px;
+  }
+}

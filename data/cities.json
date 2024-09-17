@@ -1,0 +1,136 @@
+{
+  "cities": [
+    {
+      "cityName": "Foggaret Ezzaou",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2024-09-17T10:29:26.090Z",
+      "notes": "jkhljkn",
+      "position": {
+        "lat": "27.32379100654457",
+        "lng": "3.0341439769244753"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Albarracin",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:33:33.399Z",
+      "notes": "fdg",
+      "position": {
+        "lat": "40.47233250873922",
+        "lng": "-1.5280583165872377"
+      },
+      "id": 2
+    },
+    {
+      "cityName": "Villa del Prado",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:33:36.020Z",
+      "notes": "gfh",
+      "position": {
+        "lat": "40.3045550685334",
+        "lng": "-4.3193663219243525"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Velilla",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:33:38.228Z",
+      "notes": "gfh",
+      "position": {
+        "lat": "41.55051205137535",
+        "lng": "-4.999203867211848"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Truchas",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:33:40.396Z",
+      "notes": "gfh",
+      "position": {
+        "lat": "42.20453610022151",
+        "lng": "-6.537823941587238"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Badajoz",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:33:43.772Z",
+      "notes": "fgh",
+      "position": {
+        "lat": "38.77746966089356",
+        "lng": "-6.712756050913542"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Moha Ou Hammou Zayan",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-09-17T10:33:46.766Z",
+      "notes": "fghf",
+      "position": {
+        "lat": "33.018579502883924",
+        "lng": "-5.702287779759887"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "Oued Naam",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-09-17T10:33:49.646Z",
+      "notes": "fghfgh",
+      "position": {
+        "lat": "31.84879122649644",
+        "lng": "-3.942996131489581"
+      },
+      "id": 8
+    },
+    {
+      "cityName": "Maatarka",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-09-17T10:34:15.927Z",
+      "notes": "asfa",
+      "position": {
+        "lat": "32.77537307066566",
+        "lng": "-2.4710062083647237"
+      },
+      "id": 9
+    },
+    {
+      "cityName": "Caspe",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:36:35.247Z",
+      "notes": "csdv",
+      "position": {
+        "lat": "41.29857882681652",
+        "lng": "-0.1209317842789015"
+      },
+      "id": 10
+    },
+    {
+      "cityName": "El Bonillo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-09-17T10:38:01.023Z",
+      "notes": "cx",
+      "position": {
+        "lat": "38.97523775083839",
+        "lng": "-2.6168278579822783"
+      },
+      "id": 11
+    }
+  ]
+}
