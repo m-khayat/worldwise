@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/worldwise/static/css/main.e28f3c12.css",
-    "main.js": "/worldwise/static/js/main.ab0f5102.js",
+    "main.js": "/worldwise/static/js/main.1c8508da.js",
     "static/css/700.1b8e2ac3.chunk.css": "/worldwise/static/css/700.1b8e2ac3.chunk.css",
     "static/js/700.1359e779.chunk.js": "/worldwise/static/js/700.1359e779.chunk.js",
     "static/css/884.99553df5.chunk.css": "/worldwise/static/css/884.99553df5.chunk.css",
@@ -15,7 +15,7 @@
     "static/media/bg.jpg": "/worldwise/static/media/bg.3e2be86d98db926ce9f0.jpg",
     "index.html": "/worldwise/index.html",
     "main.e28f3c12.css.map": "/worldwise/static/css/main.e28f3c12.css.map",
-    "main.ab0f5102.js.map": "/worldwise/static/js/main.ab0f5102.js.map",
+    "main.1c8508da.js.map": "/worldwise/static/js/main.1c8508da.js.map",
     "700.1b8e2ac3.chunk.css.map": "/worldwise/static/css/700.1b8e2ac3.chunk.css.map",
     "700.1359e779.chunk.js.map": "/worldwise/static/js/700.1359e779.chunk.js.map",
     "884.99553df5.chunk.css.map": "/worldwise/static/css/884.99553df5.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.e28f3c12.css",
-    "static/js/main.ab0f5102.js"
+    "static/js/main.1c8508da.js"
   ]
 }
