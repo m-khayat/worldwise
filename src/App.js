@@ -26,7 +26,7 @@ const AppLayout = lazy(() => import("./pages/AppLayout"));
 export default function App() {
   return (
     <CitiesProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/worldwise">
         <Suspense fallback={<SpinnerFullPage />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -39,7 +39,6 @@ export default function App() {
               <Route path="/app/countries" element={<CountryList />} />
               <Route path="/app/form" element={<Form />} />
             </Route>
-            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Suspense>
       </BrowserRouter>
