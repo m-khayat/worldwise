@@ -18,17 +18,19 @@ const formatDate = (date) =>
 function City() {
   const { id } = useParams();
   const { curCity, getCity, isLoading } = useContext(CitiesContext);
-  const navegate = useNavigate();
-  const { cityName, emoji, date, notes } = curCity;
+  const navigate = useNavigate();
 
-  useEffect(
-    function () {
-      getCity(id);
-    },
-    [id]
-  );
+  // Add a null check for curCity
+  useEffect(() => {
+    getCity(id);
+  }, [id, getCity]);
 
   if (isLoading) return <Spinner />;
+
+  // If curCity is null, return a fallback message
+  if (!curCity) return <p>City not found</p>;
+
+  const { cityName, emoji, date, notes } = curCity;
 
   return (
     <div className={styles.city}>
@@ -66,7 +68,7 @@ function City() {
         <Button
           type="back"
           onClick={() => {
-            navegate(-1);
+            navigate(-1);
           }}
         >
           &larr; Back

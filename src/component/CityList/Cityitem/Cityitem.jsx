@@ -17,12 +17,13 @@ export default function Cityitem({ city }) {
     e.preventDefault();
     deleteCity(id);
   }
+
   return (
     <li>
       <Link
         to={`${id}?lat=${position.lat}&lng=${position.lng}`}
         className={`${style.cityItem} ${
-          city.id === curCity.id ? style["cityItem--active"] : ""
+          curCity && city.id === curCity.id ? style["cityItem--active"] : ""
         }`}
       >
         <span className={style.emoji}>{emoji}</span>

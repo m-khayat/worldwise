@@ -1,74 +1,62 @@
 const { createContext, useState, useEffect } = require("react");
 
-const BASE_URL = " http://localhost:8000";
 const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
-  const [cities, setCities] = useState([]);
+  const [cities, setCities] = useState([
+    {
+      cityName: "la Pobla de Segur",
+      country: "Spain",
+      emoji: "🇪🇸",
+      date: "2024-09-19T20:52:27.439Z",
+      notes: "dfgdfd",
+      position: {
+        lat: "42.27730877423709",
+        lng: "0.9887695312500001",
+      },
+      id: 1,
+    },
+    {
+      cityName: "Madrid",
+      country: "Spain",
+      emoji: "🇪🇸",
+      date: "2024-09-19T21:00:22.031Z",
+      notes: "dfsdg",
+      position: {
+        lat: "40.397009012567324",
+        lng: "-3.6940833234476615",
+      },
+      id: 2,
+    },
+  ]);
+
   const [isLoading, setIsLoading] = useState(false);
-  const [curCity, setCurCity] = useState([]);
+  const [curCity, setCurCity] = useState(null);
 
-  useEffect(function () {
-    async function frtchCities() {
-      try {
-        setIsLoading(true);
-        const res = await fetch(`${BASE_URL}/cities`);
-        const data = await res.json();
-        setCities(data);
-      } catch {
-        throw new Error("error");
-      } finally {
-        setIsLoading(false);
-      }
+  function getCity(id) {
+    setIsLoading(true);
+    const city = cities.find((city) => city.id === Number(id));
+    if (city) {
+      setCurCity(city);
+    } else {
+      throw new Error("City not found");
     }
-    frtchCities();
-  }, []);
-
-  async function getCity(id) {
-    try {
-      setIsLoading(true);
-      const res = await fetch(`${BASE_URL}/cities/${id}`);
-      const data = await res.json();
-      setCurCity(data);
-    } catch {
-      throw new Error("error");
-    } finally {
-      setIsLoading(false);
-    }
+    setIsLoading(false);
   }
 
-  async function addCity(newCity) {
-    try {
-      setIsLoading(true);
-      const res = await fetch(`${BASE_URL}/cities`, {
-        method: "POST",
-        body: JSON.stringify(newCity),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      const data = await res.json();
-      setCities((cities) => [...cities, data]);
-    } catch {
-      throw new Error("error");
-    } finally {
-      setIsLoading(false);
-    }
+  function addCity(newCity) {
+    setIsLoading(true);
+    newCity.id = cities.length
+      ? Math.max(...cities.map((city) => city.id)) + 1
+      : 1;
+    setCities([...cities, newCity]);
+    setIsLoading(false);
   }
 
-  async function deleteCity(id) {
-    try {
-      setIsLoading(true);
-      await fetch(`${BASE_URL}/cities/${id}`, {
-        method: "DELETE",
-      });
-
-      setCities((cities) => cities.filter((city) => city.id !== id));
-    } catch {
-      throw new Error("error");
-    } finally {
-      setIsLoading(false);
-    }
+  function deleteCity(id) {
+    setIsLoading(true);
+    setCities(cities.filter((city) => city.id !== id));
+    setIsLoading(false);
   }
 
   return (
